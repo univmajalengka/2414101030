@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #3085d6;
+    color: rgb(89, 9, 159);
+    padding: 20px;
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 33.3%;
+    height: 100px;
+    object-fit: cover;
+}
+
+nav ul {
+    background: #222;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: rgb(109, 198, 239);
+    text-decoration: none;
+}
+
+.paket-section {
+    padding: 20px;
+}
+
+.paket-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.paket-card {
+    width: 150px;
+    border: 1px solid #3cc0f5;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.paket-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.video {
+    padding: 15px;
+    text-align: center;
+}
+
+iframe {
+    max-width: 100%;
+}
